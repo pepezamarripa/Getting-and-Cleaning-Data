@@ -1,0 +1,13 @@
+---
+title: "Code book - Getting and cleaning data project"
+author: "Pepe Zamarripa"
+date: "2023-05-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Code book - Getting and celaning data project
+
