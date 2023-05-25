@@ -1,19 +1,19 @@
 ---
 title: "R Notebook"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
-
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
-
-```{r}
-plot(cars)
-```
-
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
-
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
-
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
-
+##Objective of the projct\
+1. Clean a tidy data set\
+2. Create a repository in Github that keeps the code in R that performs the analysis, the code book and the README:\
+- run_analysis.R: performs the data preparation and then followed by the 5 steps required as described in the course project’s definition:\
+  (a) Merges the training and the test sets to create one data set.\
+  (b) Extracts only the measurements on the mean and standard deviation for each measurement.\
+  (c) Uses descriptive activity names to name the activities in the data set\
+  (d) Appropriately labels the data set with descriptive variable names.\
+  (e) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.\
+\
+- Code_book.Rmd: a code book that describes the dataset\
+- final_Dataset.txt: exported txt file with the tidy data set
