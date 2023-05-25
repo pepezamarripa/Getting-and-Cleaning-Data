@@ -58,5 +58,5 @@
   train_test <- reshape2::dcast(data = train_test, SubjectNum + Activity ~ variable, fun.aggregate = mean)
 
 # Create the tidy table
-  data.table::fwrite(x = train_test, file = "tidyDataset.txt", quote = FALSE)
+  data.table::fwrite(x = train_test, file = "tidyData.txt", quote = FALSE)
 
